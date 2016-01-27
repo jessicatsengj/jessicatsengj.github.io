@@ -1,0 +1,221 @@
+body{
+	background-image: url("bg/forest.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#title{
+	font-family: fantasy;
+}
+
+#title a{
+	color: #fff;
+	
+}
+
+#title a:hover{
+	text-decoration: none;
+}
+
+.content{
+	padding-right: 8em;
+	padding-left: 8em;
+}
+
+
+
+.headbg{
+	width: 100%;
+	
+	padding-top: 1px;
+	padding-bottom: 10px;
+	/*position: absolute;*/
+	margin-left: -1em;
+}
+
+nav{
+	position: fixed;
+	background-color: rgba(96, 153, 167, 0.8);
+	top: 4em;
+	right:0;
+	padding-bottom: 20px;
+	width: 100%;
+	z-index: 9;
+	border-bottom: 5px solid #000;
+}
+
+.nav-item{
+	position: absolute;
+	right: 3em;
+	margin-top: -1.5em;
+}
+
+.nav-item img{
+	margin-right: 2em;
+}
+
+#title{
+	color: #fff;
+	width:100%;
+	padding-left: 2em;
+}
+
+.ttl{
+	color: #000;
+}
+
+#line{
+	margin-top: 2em;
+	margin-left: 20em;
+}
+
+.intro{
+	text-align: center;
+	line-height: 18px;
+	font-family: fantasy;
+}
+
+.intro p{
+	font-size: 16px;
+}
+.intro h4{
+	font-weight: bolder;
+	font-family: fantasy;
+}
+
+.first-sec, .second-sec, .third-sec{
+	margin-left: 2em;
+	margin-right: 3em;
+}
+
+.first-sec{
+	padding-top: 3em;
+}
+
+/*.latest-articles{
+	background-color: rgba(149, 191, 192, 0.5);
+
+}*/
+
+.latest-articles, .intro{
+	margin-top: 5em;
+	font-family: fantasy;
+}
+
+.article-items{
+	background-color: rgba(149, 191, 192, 0.6);
+	padding: 10px;
+	font-family: fantasy;
+}
+
+.article-items a{
+	color: #000;
+}
+
+.article-items a:hover{
+	color: #3A6D5F;
+	text-decoration: none;
+}
+
+.latest-articles h3{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+
+.latest-articles h4{
+	color: #000;
+	/*padding-left: 10px;*/
+}
+
+.picture img{
+	border: 3px solid #000;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+
+
+/*	position: absolute;
+	top:2em;*/
+}
+
+.picture span{
+	position: absolute;
+	z-index: 1;
+	width: 785px;
+	height: 318px;
+	box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.6),
+				inset 0 0 100px rgba(255, 255, 255, 0.3);
+	background-color: rgba(255,255,255,0.1);
+	border: 3px solid #000;
+	opacity: 0;
+	left: 15px;
+}
+
+
+.seperate img{
+	margin-top: 2em;
+}
+
+.second-sec{
+	background-color: rgba(255, 255, 255, 0.4);
+	/*padding: 3em;*/
+	text-align: center;
+	padding-top: 3em;
+}
+
+.description{
+	text-align: left;
+	padding-left: 7em;
+	padding-right: 7em;
+	padding-top: 1em;
+	font-size: 14px;
+}
+
+/*.third-sec{
+	margin-top: 3em;
+}*/
+
+.comment-record{
+	color: #000;
+	background-color: rgba(149, 191, 192, 0.6);
+}
+
+.titles{
+	background-color: rgba(0,0,0,0.7);
+	/*margin-left: -15px;*/
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+.titles h3{
+	color: #fff;
+	font-family: fantasy;
+	text-align: left;
+}
+
+
+.foot{
+	background-color: #000;
+	color: #fff;
+	margin-top: 3em;
+}
+
+button{
+	background: transparent;
+	border: none;
+}
+
+footer{
+	/*margin-left: 2em;
+	margin-right: 2em;*/
+
+}

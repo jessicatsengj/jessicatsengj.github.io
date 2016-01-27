@@ -1,0 +1,121 @@
+body{
+	background-image: url("bg/plum.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#title{
+	font-family: fantasy;
+}
+
+.content{
+	padding-right: 10em;
+	padding-left: 10em;
+}
+
+
+
+.headbg{
+	width: 100%;
+	
+	padding-top: 1px;
+	padding-bottom: 10px;
+	/*position: absolute;*/
+	margin-left: -1em;
+}
+
+nav{
+	position: fixed;
+	background-color: rgba(194,233,255,.6);
+	top: 4em;
+	right:0;
+	padding-bottom: 20px;
+	width: 100%;
+	z-index: 9;
+	border-bottom: 5px solid #000;
+}
+
+.nav-item{
+	position: absolute;
+	right: 3em;
+	margin-top: -1.5em;
+}
+
+.nav-item img{
+	margin-right: 2em;
+}
+
+#title{
+	color: #fff;
+	width:100%;
+	padding-left: 2em;
+}
+
+#title a{
+	color: #fff;
+	
+}
+
+#title a:hover{
+	text-decoration: none;
+}
+
+.ttl{
+	color: #000;
+}
+
+#line{
+	margin-top: 2em;
+	margin-left: 20em;
+}
+
+.ppl{
+	position: fixed;
+	top:12em;
+	left: 2em;
+	width: 350px;
+
+}
+
+.index{
+	text-align: center;
+	margin-top: 6em;
+	font-size: 22px;
+}
+
+
+.index-item{
+	margin-top: 1em;
+	color: #000;
+	background-color: rgba(255,255,255,0.5);
+	border: 3px solid #000;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.index-item a{
+	color: #000;
+}
+
+.index-item a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.index-item:hover{
+	background-color: rgba(194,233,255,.6);
+}
+
+.foot{
+	background-color: #000;
+	color: #fff;
+}
