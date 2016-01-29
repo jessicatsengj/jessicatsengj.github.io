@@ -27,8 +27,8 @@ header{
 }
 
 .content{
-	padding-right: 10em;
-	padding-left: 10em;
+	padding-right: 7em;
+	padding-left: 7em;
 }
 
 
@@ -81,4 +81,27 @@ nav{
 .foot{
 	background-color: #000;
 	color: #fff;
+}
+
+.grid{
+	margin-top: 10em;
+}
+
+.grids{
+	float: left;
+	border: 3px solid #000;
+	margin:3px;
+}
+
+.grid-item-width1{ 
+	width: 200px; 
+/*	float: left;
+	border: 3px solid #000;
+	margin:2px;*/
+}
+.grid-item-width2{ 
+	width: 400px; 
+	/*float: left;
+	border: 3px solid #000;
+	margin:2px;*/
 }

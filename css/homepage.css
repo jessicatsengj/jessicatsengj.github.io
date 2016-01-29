@@ -100,6 +100,7 @@ nav{
 	padding-top: 3em;
 }
 
+
 /*.latest-articles{
 	background-color: rgba(149, 191, 192, 0.5);
 
@@ -215,7 +216,8 @@ button{
 }
 
 footer{
-	/*margin-left: 2em;
-	margin-right: 2em;*/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 
 }

@@ -4,9 +4,12 @@
 		<meta charset="utf-8">
 		<title>portfolio</title>
 		<link rel="stylesheet" href="./css/portfolio.css">
+		<!-- <link rel="stylesheet" href="masonry/css/masonry-docs.css" media="screen"> -->
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  		<script src="./js/about.js"></script>
+  		<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+  		<script src="./js/portfolio.js"></script>
+  		
 	</head>
 	<body>
 		<header>
@@ -14,12 +17,10 @@
 					<div class="headbg">
 						<div class="ttl" id="title">
 							<h3>Solitary Hill</h3>
-							<!-- <p>Jessica's Personal Website</p> -->
 						</div>
 					</div>
 			</div>
 		</header>
-
 			
 		<nav>
 			<div class="col-md-12">
@@ -34,7 +35,28 @@
 		</nav>
 
 		<div class="content">
-			
+			<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+
+				<div><img class="grids grid-item-width1" src="imghome/bohemia_summer.png"></div>
+				<div><img class="grids grid-item-width1" src="imghome/bohemia_winter.png"></div>
+				<div><img class="grids grid-item-width1" src="imghome/demeter.png"></div>
+				<div><img class="grids grid-item-width2" src="imghome/wolf_bg.png"></div>	
+				
+				<div><img class="grids grid-item-width2" src="imghome/lastnight_slide.png"></div>
+				<div><img class="grids grid-item-width2" src="imghome/erranter.png"></div>
+
+				<div><img class="grids grid-item-width1" src="imghome/interactive.png"></div>
+				<div><img class="grids grid-item-width1" src="imghome/black_bamboo.bmp"></div>
+				<div><img class="grids grid-item-width1" src="imghome/writing.png"></div>
+								
+				<div><img class="grids grid-item-width2" src="imghome/spokoy_bg.png"></div>
+				<div><img class="grids grid-item-width2" src="imghome/forest.png"></div>
+				<div><img class="grids grid-item-width2" src="imghome/tyger.jpg"></div>
+				<div><img class="grids grid-item-width2" src="imghome/postcard.jpg"></div>
+				<div><img class="grids grid-item-width1" src="imghome/"></div>
+				<div><img class="grids grid-item-width1" src="imghome/"></div>		
+
+			</div>
 		</div>
 
 		<footer>
@@ -46,4 +68,6 @@
 		</footer>  
 
 	</body>
+	
+	
 </html>
