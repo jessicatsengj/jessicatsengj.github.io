@@ -2,11 +2,15 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>portfolio</title>
-		<link rel="stylesheet" href="./css/portfolio.css">
+		<title>interactive</title>
+		<link rel="stylesheet" href="./css/interactive.css">
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  		<script src="./js/portfolio.js"></script>
+  		<script src="./js/interactive.js"></script>
+  		<script src="./js/processing.js"></script>
+		<script src="./js/graphic.js"></script>
+		<script src="./js/interactive.js"></script>
+		<script src="./js/words.js"></script>
 	</head>
 	<body>
 		<header>
@@ -33,23 +37,10 @@
 		</nav>
 
 		<div class="content">
-			<div class="col-md-4">
-				<div class="section"><a href="graphic.html">
-					<div class="pic"><img src="imghome/graphic2.png"></div>
-					<div class="topic"><h1>Graphics</h1></div>
-				</a></div>
-			</div>
-			<div class="col-md-4">
-				<div class="section"><a href="interactive.html">
-					<div class="pic"><img src="imghome/interactive2.png"></div>
-					<div class="topic"><h1>Interactives</h1></div>
-				</a></div>
-			</div>
-			<div class="col-md-4">
-				<div class="section"><a href="">
-					<div class="pic"><img src=""></div>
-					<div class="topic"><h1>Others</h1></div>
-				</a></div>
+			<div class="row section">
+				<div class="col-md-4 button"><canvas id="canvas1"></canvas></div>
+				<div class="col-md-4 button"><canvas id="canvas2"></canvas></div>
+				<div class="col-md-4 button"><canvas id="canvas3"></canvas></div>				
 			</div>
 			
 		</div>

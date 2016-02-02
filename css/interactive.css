@@ -29,8 +29,7 @@ header{
 .content{
 	padding-right: 10em;
 	padding-left: 10em;
-	margin-top: 14em;
-	text-align: center;
+	margin-top: 10em;
 }
 
 
@@ -80,31 +79,7 @@ nav{
 	margin-left: 20em;
 }
 
-.section{
-	background-color: rgba(255,255,255,.6);
-	border-radius: 10px;
-	border: 3px solid #000;
-	margin-bottom: 4em;
-}
-
-.section a{
-	color: #000;
-}
-
-.section a:hover{
-	color: rgb(96, 153, 167);
-	text-decoration: none;
-}
-
-.pic img{
-	width:90%;
-	margin-top:1.5em;
-	border: 1px solid #000;
-}
-
 .foot{
 	background-color: #000;
 	color: #fff;
-	/*position: absolute;
-	bottom: 0*/
 }
