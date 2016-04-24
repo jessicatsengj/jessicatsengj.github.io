@@ -29,6 +29,7 @@ header{
 .content{
 	padding-right: 7em;
 	padding-left: 7em;
+	padding-top: 10em;
 }
 
 
@@ -83,25 +84,24 @@ nav{
 	color: #fff;
 }
 
-.grid{
-	margin-top: 10em;
-}
 
-.grids{
+#gallery {
 	float: left;
-	border: 3px solid #000;
-	margin:3px;
+	width: 90px;
+	margin-right: 30px;
+	margin-left: 10px;
+	border-right: white 1px dotted;
 }
-
-.grid-item-width1{ 
-	width: 200px; 
-/*	float: left;
-	border: 3px solid #000;
-	margin:2px;*/
+#gallery img {
+	display: inline-block;
+	margin: 0 0 10px 0;
+	border: 1px solid rgb(0,0,0);
 }
-.grid-item-width2{ 
-	width: 400px; 
-	/*float: left;
+#photo {
+	margin-left: 150px;
+	position: relative;
+}
+#photo img {
+	position: fixed;
 	border: 3px solid #000;
-	margin:2px;*/
 }

@@ -10,23 +10,12 @@ header{
 	top: 0;
 	width: 100%;
 	z-index: 10;
-	background-color: rgba(0, 0, 0, 1);
+	/*background-color: rgba(0, 0, 0, 1);*/
 }
-
-@font-face {
-      font-family: myFirstFont;
-      src: url(bg/tseng2.ttf);
- }
-p {
-  font-family: myFirstFont;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 30px;
-}
-
 
 #title{
 	font-family: fantasy;
+
 }
 
 #title a{
@@ -41,35 +30,35 @@ p {
 .content{
 	padding-right: 10em;
 	padding-left: 10em;
-
 }
 
 
 
-.headbg{
+/*.headbg{
 	width: 100%;
 	
 	padding-top: 1px;
 	padding-bottom: 10px;
-	/*position: absolute;*/
+	position: absolute;
 	margin-left: -1em;
-}
+}*/
 
 nav{
-	position: fixed;
+	/*position: fixed;*/
 	background-color: rgba(96, 153, 167, 0.8);
-	top: 4em;
+	/*top: 0;*/
 	right:0;
-	padding-bottom: 20px;
+	padding-bottom: 3em;
 	width: 100%;
 	z-index: 9;
-	border-bottom: 5px solid #000;
+	border-bottom: 7px solid #000;
+	border-top: 30px solid #000;
 }
 
 .nav-item{
 	position: absolute;
 	right: 3em;
-	margin-top: -1.5em;
+	margin-top: -4.1em;
 }
 
 .nav-item img{
@@ -82,37 +71,23 @@ nav{
 	padding-left: 2em;
 }
 
+#title img{
+	width: 130px;
+	margin-top: -1em;
+	margin-left: -3.1em;
+}
+
+
 .ttl{
-	color: #000;
+	color: #000; 
 }
 
 #line{
-	margin-top: 2em;
+	margin-top: -4.7em;
 	margin-left: 20em;
-}
-
-.content{
-	margin-top: 10em;
-}
-
-.words{
-	font-size: 16px;
-	line-height: 26px;
-	background-color: rgba(255,255,255,0.6);
-	padding: 10px;
-	border-left: 3px solid #000;
-}
-.sec{
-	padding: 10px;
-	border-bottom: 3px solid #000;
 }
 
 .foot{
 	background-color: #000;
 	color: #fff;
-}
-
-footer{
-	
-
 }
